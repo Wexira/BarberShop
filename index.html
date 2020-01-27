@@ -3,6 +3,12 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+    <link
+        href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+        rel="stylesheet">
+
     <title>
         Барбершоп "Бородинский"
     </title>
@@ -14,21 +20,23 @@
             <a class="main-header-logo">
                 <img src="" alt="Логотип барбершопа 'Бородинский'">
             </a>
-            <ul class="site-navigation">
-                <li><a href="info.html">Информация</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="prise.html">Прайс-лист</a></li>
-                <li><a href="store.html">Магазин</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-            <ul class="user-navigation">
-                <li class="icons">
+            <div class="site-navigation">
+                <p>
+                    <a nav__link href="info.html">Информация</a></p>
+                <p><a href="news.html">Новости</a></p>
+                <p><a href="price.html">Прайс-лист</a></p>
+                <p><a href="shop.html">Магазин</a></p>
+                <p><a href="contacts.html">Контакты</a></p>
+            </div>
+            <div class="user-navigation">
+                <p class="icons">
                     <i class="fas fa-sign-in-alt"></i>
-                </li>
-                <li class="login-link">Вход</li>
-            </ul>
+                </p>
+                <p class="login-pnk">Вход</p>
+            </div>
         </nav>
     </header>
+
     <main class="container">
 
         <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
@@ -55,6 +63,7 @@
             </ul>
 
         </section>
+        
         <section class="news">
             <h2>Новости</h2>
             <ul class="news-list">

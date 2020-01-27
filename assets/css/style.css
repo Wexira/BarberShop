@@ -1,8 +1,9 @@
 body {
     margin: 0%;
     line-height: 1.6;
-    color: #333;
-
+	background-color: #1b1b1b;
+	font-family: 'PT Sans Narrow', sans-serif;
+	
 }
     *,
     *:before,
@@ -10,3 +11,36 @@ body {
     {box-sizing: border-box;}
 
 h1, h2, h3, h4, h5, h6 {margin: 0;}
+
+.main-header {
+	width: 100%;
+	height: 605px;
+    display: flex;
+	justify-content: space-between;
+	
+	max-width: 940px;
+    padding: 0 15px;
+	margin: 0 auto;
+	/* background-color: #070707; */
+	
+}
+
+.main-header-logo {
+	display: none;
+}
+
+
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+	display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: white;
+}
